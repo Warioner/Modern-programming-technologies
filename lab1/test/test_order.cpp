@@ -22,3 +22,14 @@ TEST(countExpensiveItems, test1) { EXPECT_EQ(countExpensiveItems({}, 5), 0); }
 TEST(countExpensiveItems, test2) {
   EXPECT_EQ(countExpensiveItems({1, 5, 2}, 3), 1);
 }
+
+TEST(maxPriceOddValueOddIndex, test1) {
+  EXPECT_EQ({maxPriceOddValueOddIndex({2, 5, 3, 4, 2, 1})}, 5);
+}
+
+TEST(productOddIndexSum, test1) {
+  EXPECT_DOUBLE_EQ({productOddIndexSum({})}, 1.0);
+}
+TEST(productOddIndexSum, test2) {
+  EXPECT_DOUBLE_EQ({productOddIndexSum({{1, 2}, {3, 4}})}, 6.0);
+}
