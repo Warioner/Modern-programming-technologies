@@ -34,7 +34,7 @@ double applyDiscount(double total, bool isPremium) {
 double calcShipping(double total) {
   if (total < 0)
     return -1.0;
-  if (total <= 5000)
+  if (total >= 5000)
     return 0.0;
   return 300.0;
 }
