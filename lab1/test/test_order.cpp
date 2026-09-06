@@ -17,3 +17,8 @@ TEST(finalPrice, test2) { EXPECT_DOUBLE_EQ(finalPrice(100, 1000, 100), 0.0); }
 TEST(finalPrice, test3) {
   EXPECT_DOUBLE_EQ(finalPrice(1000, 100, 200), 1100.0);
 }
+
+TEST(countExpensiveItems, test1) { EXPECT_EQ(countExpensiveItems({}, 5), 0); }
+TEST(countExpensiveItems, test2) {
+  EXPECT_EQ(countExpensiveItems({1, 5, 2}, 3), 1);
+}
