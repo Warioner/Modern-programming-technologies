@@ -8,3 +8,4 @@ enable_testing()
 add_subdirectory(third_party/googletest ${CMAKE_BINARY_DIR}/googletest EXCLUDE_FROM_ALL)
 
 add_subdirectory(lab1)
+add_subdirectory(lab2)
