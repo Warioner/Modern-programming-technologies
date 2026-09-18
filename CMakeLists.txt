@@ -9,3 +9,4 @@ add_subdirectory(third_party/googletest ${CMAKE_BINARY_DIR}/googletest EXCLUDE_F
 
 add_subdirectory(lab1)
 add_subdirectory(lab2)
+add_subdirectory(lab3)
